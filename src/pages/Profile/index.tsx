@@ -153,7 +153,7 @@ const Profile: React.FC = () => {
         });
       },
     );
-  }, [user.id]);
+  }, [user.id, updateUser]);
 
   const handleGoBack = useCallback(() => {
     navigation.goBack();
